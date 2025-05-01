@@ -1,0 +1,11 @@
+@host = http://localhost:5236
+
+GET {{host}}/test/1
+Accept: application/json
+
+###
+
+GET {{host}}/test/2
+Accept: application/json
+
+###

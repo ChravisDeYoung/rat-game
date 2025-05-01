@@ -1,0 +1,11 @@
+@host = http://localhost:5236
+
+GET {{host}}/test?difficulty=VeryEasy
+Accept: application/json
+
+###
+
+GET {{host}}/test?difficulty=Hard
+Accept: application/json
+
+###

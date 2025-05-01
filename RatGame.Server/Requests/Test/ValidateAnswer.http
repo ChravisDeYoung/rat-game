@@ -1,0 +1,21 @@
+@host = http://localhost:5236
+
+POST {{host}}/test/validate
+Content-Type: application/json
+
+{
+	"testId": 1,
+	"answer": "Answer"
+}
+
+
+###
+
+POST {{host}}/test/validate
+Content-Type: application/json
+
+{
+	"testId": 1,
+	"answer": "Wrong Answer"
+}
+

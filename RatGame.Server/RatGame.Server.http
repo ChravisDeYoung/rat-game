@@ -1,6 +1,0 @@
-@RatGame.Server_HostAddress = http://localhost:5236
-
-GET {{RatGame.Server_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
